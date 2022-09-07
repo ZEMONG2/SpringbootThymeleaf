@@ -21,5 +21,7 @@ public interface FileBoardMapper {
 	int fileBoardDelete(int bno); // 게시글 삭제
 
 	int fileInsert(FileVO file); // 파일 업로드
+	
+	FileVO fileDetail(int b_no); // 파일 다운로드
 
 }
