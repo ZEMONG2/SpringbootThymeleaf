@@ -76,7 +76,7 @@ public class FileBoardController {
 			String fileNameExtension = FilenameUtils.getExtension(fileName).toLowerCase();
 			File destinationFile; // DB에 저장할 파일 고유명
 			String destinationFileName;
-			// 절대경로 설정 안해주면 지 맘대로 들어가버려서 절대경로 박아주었습니다.
+			// 절대경로 설정 안해주면 지 맘대로 들어가버려서 절대경로로 설정.
 			String fileUrl = "/Users/zemong/Desktop/GITHUB/SpringbootThymeleaf/src/main/resources/upload/";
 
 			do { // 우선 실행 후
